@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARES IMPARES </title>
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/funciones.js"> </script> 
+
+</head>
+<body>
+    <header id="cabecera">
+        <ul>
+            <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)" >
+                <a >USUARIO</a>
+                <div id="subseccion1">
+                    <p><a href="html/indexformulario.html"> REGISTRAR </a></p>
+                    <p><a href="html/indexlogin.html"> LOGIN </a></p>
+                    
+
+                </div>
+            </li>
+            
+            <li id="seccion2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+                <a href="#">Funciones</a>
+                <div id="subseccion2">
+                    <p><a href="html/indexmru.html"> MRU </a></p>
+                    <p><a> BIBLIOTECA </a></p>
+                    <p><a> TRABAJO</a></p>
+                    <p><a href="html/paresimpares.html"> PARES IMPARES</a></p>
+                </div>
+            </li>
+
+            <li id="seccion3" onmouseover="ver(3)" onmouseout="ocultar(3)">
+                <a href="#">NOSOTROS</a>
+                <div id="subseccion3">
+                    
+                    <p><a>MISIÓN </a></p>
+                    <p><a>VISIÓN</a></p>
+                </div>
+            </li>
+
+        </ul> 
+    </header>
+    <div  id="contenedor">
+        <div id="cajasdetexto">
+
+            <input type="text" placeholder="digite #1" id="CAJA1"> <br>
+            <input type="text" placeholder="digite #2" id="CAJA2"> <br>
+            <input type="text" placeholder="digite #3" id="CAJA3"> <br>
+
+            <input type="button" value="Verificar" onclick="funcionnumeromayor()"> 
+        </div>
+    </div>
+    
+</body>
+</html>

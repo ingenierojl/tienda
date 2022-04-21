@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CALCULAR AREA RECTÁNGULO</title>
+        <link href="../css/estilos.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/funciones.js"> </script>        
+    </head>
+
+    <body>
+        <header id="cabecera">
+            <ul>
+                <li>
+                    <a href="../index.html" >Inicio</a>
+                
+                </li>
+
+                <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)" >
+                    <a ">USUARIO</a>
+                    <div id="subseccion1">
+                        <p><a href="html/indexformulario.html"> REGISTRAR </a></p>
+                        <p><a href="html/indexlogin.html"> LOGIN </a></p>
+                        
+
+                    </div>
+                </li>
+                
+                <li id="seccion2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+                    <a href="#">Funciones</a>
+                    <div id="subseccion2">
+                        <p><a href="html/indexmru.html"> MRU </a></p>
+                        <p><a> BIBLIOTECA </a></p>
+                        <p><a> TRABAJO</a></p>
+                    </div>
+                </li>
+
+                <li id="seccion3" onmouseover="ver(3)" onmouseout="ocultar(3)">
+                    <a href="#">NOSOTROS</a>
+                    <div id="subseccion3">
+                        
+                        <p><a>MISIÓN </a></p>
+                        <p><a>VISIÓN</a></p>
+                    </div>
+                </li>
+
+            </ul> 
+        </header>
+
+
+        <div  id="contenedor">
+           
+
+            <form action="../php/calculararea.php" id="cajasdetexto" method="GET">
+            
+                <input type="text" placeholder="digite base" name="base"> <br>
+                <input type="text" placeholder="digite altura" name="altura"> <br>
+                <input type="submit" value="calcular area" > 
+
+
+            </form>
+
+
+
+        </div>
+    </body>
+</html>
